@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Botsmatic;
+    src: url(../images/BotsmaticRegular.ttf);
+}
+
+@font-face {
+    font-family: Pixelade;
+    src: url(../images/Pixelade.ttf);
+}
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+#background-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -99;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgba(16, 138, 147,0.5);
+    background-size: cover;
+}
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+.container h1 {
+  color: white;
+}
+
+.jumbotron {
+	background: none;
+	width: 100%;
+	height:100%;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-size: 90px;
+	font-family: Botsmatic;
+
+}
+
+.jumbotron h2 {
+	color: white;
+	font-family: Pixelade;
+	margin-top:40px;
+	-webkit-animation-delay: 1s;
+}
+
+.jumbotron input {
+    width: 40%;
+    margin: auto;
+    -webkit-animation-delay: 1s;
+}
+
+
+
+
